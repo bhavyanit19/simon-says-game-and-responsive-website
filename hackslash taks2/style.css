@@ -1,0 +1,719 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+*{
+    margin:0;
+    padding:0;
+    font-family: "Varela Round", serif;
+    
+}
+/* html,body{
+    overflow-x:hidden;
+    width:100%;
+} */
+body{
+    background-image:url("milad-fakurian-RlZrYad5IKk-unsplash copy.jpg");
+    background-size:cover;
+    width:100vw;
+}
+#navbar{
+    display:flex;
+}
+#ul1{
+    width:70%;
+    display:flex;
+    justify-content:space-evenly;
+}
+#ul1 li{
+    margin-top:40px;
+    list-style:none;
+    
+}
+#ul1 li a{
+    color:white;
+    text-decoration:none;
+}
+#ul1 li a:hover{
+    text-decoration:underline;
+}
+#logo{
+    margin-top:30px;
+    width:40px;
+    border-radius:50%;
+}
+#rightnavbar{
+    text-align:right;
+    margin-right:80px;
+    width:30%;
+    margin-top:40px;
+}
+button{
+    font-weight:600;
+    border-radius:5px;
+    border:2px solid blue;
+    background-color:white;
+    padding:10px;
+}
+button:hover{
+    cursor:pointer;
+}
+.fa-solid{
+    margin-right:18px;
+}
+#intro{
+    width:50%;
+    text-align:center;
+    color:white;
+    margin-top:120px;
+}
+#one{
+    font-size:50px;
+}
+#two{
+    font-size:20px;
+}
+#btn2{
+    border:none;
+    margin-top:30px;
+}
+#btn2:hover{
+    cursor:pointer;
+    background-color:#fefee3;
+}
+#ul2{
+    margin-left:230px;  
+    display:flex;
+    margin-top:100px;
+}
+#ul2 li{
+    color:#e3d5ca;
+    padding:15px;
+    list-style:none;
+    font-size:20px;
+}
+#ul2 li a{
+    color:#e3d5ca;
+}
+#ul2 li a:hover{
+    color:white;
+    cursor:pointer;
+}
+#aboutme p{   
+    font-size:50px;
+    color:bisque;
+} 
+#aboutme{
+    color:white;
+    margin-top:120px;
+    margin-left:300px;
+    width:50%; 
+}
+
+#aboutme div{
+    line-height:30px;
+    margin-top:20px;
+}
+#aboutme img{
+    width:150px;
+    margin-top:20px;
+    margin-right:80px;
+    border-radius:50%;
+    
+}
+#subaboutme{
+    display:flex;
+
+}
+#services1{
+    color:white;
+    margin-top:80px;
+    margin-left:600px;
+    width:50%;   
+}
+#services1 p{
+    position:relative;
+    right:50px;  
+    font-size:50px;
+    color:bisque;
+}
+#services1 div{
+    line-height:30px;
+    margin-top:20px;
+}
+#services1 img{
+   width:200px;
+   margin-top:20px;
+   margin-right:80px;
+}
+#subservices1{
+    display:flex;
+}
+
+
+#services2{
+    font-family: "Varela Round", serif;
+    color:white;
+    margin-top:80px;
+    margin-left:200px;
+    width:50%;   
+}
+#services2 p{
+    position:relative;
+    right:50px;
+    font-family: "Varela Round", serif;    
+    font-size:50px;
+    color:bisque;
+
+}
+#services2 div{
+    line-height:30px;
+    margin-top:20px;
+}
+#services2 img{
+   width:200px;
+   margin-top:20px;
+   margin-right:80px;
+}
+#subservices2{
+    display:flex;
+}
+#boxzone1{
+    display:flex;
+    margin-top:20px;
+}
+#box1,#box2{
+    width:50%;
+    height:400px;
+}
+#box1{
+    background-color:rgba(0,0,0,0.5);
+    color:white;
+
+}
+#box1head{
+    display:flex;
+    justify-content:center;
+    font-size:30px;
+    padding-top:30px;
+}
+#smallcontent1{
+    position:relative;
+    left:190px;
+    top:40px;
+    line-height:50px;
+}
+#smallcontent1 button{
+    background-color:white;
+    color:black;
+    margin-top:50px;
+    font-weight:900;
+    border:none;
+}
+#smallcontent1 button:hover{
+    background-color:#fefee3;
+}
+
+#box2{
+    background-color:rgba(245,245,245,0.5);
+    color:black;
+
+}
+#box2head{
+    padding-left:100px;
+    font-size:30px;
+    padding-top:30px;
+}
+#smallcontent2{
+    position:relative;
+    left:100px;
+    top:40px;
+    line-height:50px;
+}
+#smallcontent2 button{
+    background-color:white;
+    color:black;
+    margin-top:50px;
+    font-weight:900;
+    border:none;
+}
+#smallcontent2 button:hover{
+    background-color:#f5f3f4;
+}
+
+
+#boxzone2{
+    display:flex;
+}
+#box3,#box4{
+    width:50%;
+    height:400px;
+}
+#box3{
+    background-color:rgba(245,245,245,0.5);
+    color:black;
+    
+
+}
+#box3head{
+    display:flex;
+    justify-content:center;
+    font-size:30px;
+    padding-top:30px;
+}
+#smallcontent3{
+    position:relative;
+    left:190px;
+    top:40px;
+    line-height:50px;
+}
+#smallcontent3 button{
+    background-color:white;
+    color:black;
+    margin-top:50px;
+    font-weight:900;
+    border:none;
+}
+#smallcontent3 button:hover{
+    background-color:#f5f3f4;
+}
+
+
+#box4{
+    background-color:rgba(0,0,0,0.5);
+    color:white;
+
+}
+#box4head{
+    padding-left:100px;
+    font-size:30px;
+    padding-top:30px;
+}
+#smallcontent4{
+    position:relative;
+    left:100px;
+    top:40px;
+    line-height:50px;
+}
+#smallcontent4 button{
+    background-color:white;
+    color:black;
+    margin-top:50px;
+    font-weight:900;
+    border:none;
+}
+#smallcontent4 button:hover{
+    background-color:#fefee3;
+}
+#osboxes{
+    height:200px;
+    display:flex;
+    justify-content:center;
+    margin-top:50px;
+   
+}
+#headingos{
+    margin-top:30px;
+    color:bisque;
+    text-align:center;
+    font-size:50px;
+}
+.osbox{
+    background-color:white;
+    height:150px;
+    width:210px;
+    color:black;
+}
+#osbox2{
+    margin-left:20px;
+    margin-right:20px;
+    background-color:rgba(128,128,128,1);
+    height:180px;
+    width:210px;
+    position:relative;
+    bottom:15px;
+}
+#swapone{
+    position:relative;
+    top:30px;
+    left:10px;
+    display:flex;
+    font-size:20px;
+}
+#info1,#info3{
+    font-size:15px;
+    position:relative;
+    top:40px;
+    left:20px;
+    color:grey;
+}
+#rating{
+    margin-top:50px;
+    padding-left:20px;
+}
+#info2{
+    color:black;
+    font-size:15px;
+    position:relative;
+    top:40px;
+    left:20px;
+}
+#dots{
+    text-align:center;
+   
+}
+#dot2{
+    margin-left:10px;
+    margin-right:10px;
+}
+#help{
+    line-height:40px;
+    font-size:30px;
+    margin-top:100px;
+    margin-left:250px;
+    margin-bottom:20px;
+    color:white;
+}
+#help p{
+    color:yellow;
+}
+#help button{
+    background-color:rgb(234, 234, 11);
+    position:absolute;
+    right:300px;
+}
+footer{
+    display:flex;
+}
+#leftfooter,#rightfooter{
+    width:50%;
+    background-color:white;
+    height:50px;
+}
+#rightfooter ul{
+    display:flex;
+    justify-content:space-around;
+    padding-top:20px;
+}
+#rightfooter ul li{
+    list-style:none;
+    
+}
+#leftfooter{
+    text-align:center;
+   
+}
+#leftfooter p{
+    padding-top:5px;
+}
+
+@media only screen and (max-width:630px) and (min-width:430px){
+    #ul1 {
+        flex-direction:column;
+        align-items:center;
+    }
+    #ul2{
+        justify-content:center;
+        align-items: center;
+    }
+    #navbar{
+        flex-direction:column;
+        align-items:center;
+    }
+    #into{
+        text-align:left;
+
+    }
+    #aboutme{
+        width:auto;
+    }
+    #aboutme p{
+        text-align:center;
+    }
+    #aboutme img{
+        height:auto;
+    }
+    #subaboutme{
+        display:flex;
+        flex-direction:column;
+    }
+    
+    #subservices1{
+        display:flex;
+        flex-direction:column;
+             
+    }
+    #subservices1 div{
+        text-align:left;
+    }
+    #subservices2{
+        display:flex;
+        flex-direction:column;
+             
+    }
+    #subservices2 div{
+        text-align:left;
+    }
+
+    #box1head{
+        font-size:1rem;
+    }
+    #box2head{
+        font-size:1rem;
+    }
+    #box3head{
+        font-size:1rem;
+    }
+    #box4head{
+        font-size:1rem;
+    }
+    #smallcontent1{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        position:static;
+        text-align:left;
+    }
+    #smallcontent1 button{
+        position:static;;
+        margin-top:auto;
+        
+    }
+    #smallcontent2 button{
+        position:static;;
+        font-size:1rem;
+        margin-top:auto;
+        
+    }
+    #smallcontent3 button{
+        position:static;;
+        font-size:1rem;
+        margin-top:auto;
+        
+    }
+    #smallcontent4 button{
+        position:static;;
+        font-size:1rem;
+        margin-top:auto;
+        
+    }
+
+    #smallcontent2{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        position:static;
+        text-align:left;
+    }
+    #smallcontent3{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        position:static;
+        text-align:left;
+    }
+    #smallcontent4{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        position:static;
+        text-align:left;
+    }
+    
+    #smallcontent1 p{
+        font-size:0.8em;
+        
+        margin:0px;
+    }
+    #help button{
+        position:static;
+        margin-right:0px;
+    }
+    #services1{
+        position:static;
+        margin-left:4rem;
+    }
+    #services2{
+        position:static;
+        margin-left:4rem;
+    }
+    
+
+}
+@media only screen and (min-width:320px) and (max-width:430px){
+    #ul1 {
+        flex-direction:column;
+        align-items:center;
+    }
+    #ul1 li{
+        font-size:larger;
+    }
+    #ul2{
+        justify-content:center;
+        align-items: center;
+    }
+    #navbar{
+        flex-direction:column;
+        align-items:center;
+    }
+    #aboutme{
+        width:90vw;
+        font-size:2em;
+        position:static;
+        margin-left:3rem;
+    }
+    #aboutme p{
+        text-align:center;
+    }
+    #aboutme img{
+        height:auto;
+    }
+    #subaboutme{
+        display:flex;
+        flex-direction:column;
+    }
+    #subservices1{
+        display:flex;
+        flex-direction:column;
+        width:90vw;
+        font-size:2em;
+             
+    }
+    #subservices1 div{
+        text-align:left;
+    }
+    #services1 p{
+        width:fit-content;
+    }
+    #subservices2{
+        display:flex;
+        flex-direction:column;
+        width:90vw;
+        font-size:2em;
+             
+    }
+    #subservices2 div{
+        text-align:left;
+    }
+    #services2 p{
+        width:fit-content;
+    }
+    #box1head,#box2head,#box3head,#box4head {
+        width:fit-content;
+        font-size:1em;
+        margin-left:0px;
+    }
+    #box2,#box4{
+        display:flex;
+        flex-direction:column;
+        justify-content:left;
+        width:fit-content;
+        
+    }
+    
+    
+    #smallcontent1,#smallcontent2,#smallcontent3,#smallcontent4{
+        display:flex;
+        flex-direction:column;
+        align-items:left;
+        position:static;
+        text-align:left;
+        line-height:normal;
+    }
+    #smallcontent1 button,#smallcontent2 button,#smallcontent3 button,#smallcontent4 button{
+        position:static;
+        margin-top:auto;
+
+    }
+    #leftfooter,#rightfooter{
+        width:fit-content;
+    }
+    #help button{
+        position:static;
+    }
+    #osbox1,#osbox2,#osbox3,#osbox4{
+        font-size:0.5rem;
+        height:fit-content;
+        width:fit-content;
+    }
+    #swapone p{
+        font-size:small;
+    }
+    #services1{
+        position:static;
+        margin-left:3rem;
+    }
+    #services2{
+        position:static;
+        margin-left:3rem;
+    }
+}
+@media only screen and (min-width:630px) and (max-width:1300px){
+    #subaboutme{
+       display:flex;
+       flex-direction:column;
+    }
+    #subservices1{
+        display:flex;
+        flex-direction:column;
+        width:90vw;
+
+}
+#subservices2{
+    display:flex;
+    flex-direction:column;
+    width:90vw;
+}
+
+#box1head,#box2head,#box3head,#box4head {
+    width:50vw;
+    font-size:2rem;
+    
+    
+}
+#box2head{
+    padding-left:10px;
+}
+#box4head{
+    padding-left:10px;
+}
+
+ #box1,#box2,#box3,#box4{
+    width:50vw;
+ }
+
+
+#smallcontent1,#smallcontent2,#smallcontent3,#smallcontent4{
+    display:flex;
+    flex-direction:column;
+    align-items:left;
+    position:static;
+    text-align:left;
+    line-height:3em;
+    margin-top:10px;
+}
+#smallcontent1 button,#smallcontent2 button,#smallcontent3 button,#smallcontent4 button{
+    position:static;
+    margin-top:auto;
+    width:fit-content;
+    
+}
+#help{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    align-items:center;
+}
+#help button{
+    position:static;
+    width:fit-content;
+}
+#services1{
+    position:static;
+    margin-left:4rem;
+}
+#services2{
+    position:static;
+    margin-left:4rem;
+}
+    
+
+
+}

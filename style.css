@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+body{
+    background:linear-gradient(90deg,#153677,#4e085f);
+}
+#mainbox{
+    height:600px;
+    width:400px;
+    background-color:beige;
+    margin-top:150px;
+    margin-left:550px;
+    border:2px solid grey;
+    border-radius:20px;
+}
+#heading{
+    display:flex;
+    justify-content:center;
+    position:relative;
+    top:50px;
+    font-size:30px;
+    font-weight:900;
+    font-family: "Varela Round", serif;
+}
+#command{
+    display:flex;
+    justify-content:center;
+    position:relative;
+    top:90px;
+    font-size:20px;
+    font-weight:700;
+}
+#boxarea1{
+    display:flex;
+    justify-content:space-evenly;
+    position:relative;
+    top:180px;
+}
+#one{
+    background-color:darkorange;
+    height:100px;
+    width:100px;
+}
+#two{
+    background-color:blueviolet;
+    height:100px;
+    width:100px;
+}
+#boxarea2{
+    display:flex;
+    justify-content:space-evenly;
+    position:relative;
+    top:220px;
+}
+#three{
+    background-color:blue;
+    height:100px;
+    width:100px;
+}
+#four{
+    background-color:crimson;
+    height:100px;
+    width:100px;
+}
+.sbox{
+    border-radius:20px;
+}
+.sbox:hover{
+    border:2px solid black;
+    cursor:pointer;
+}
+button{
+    display:flex;
+    justify-content:center;
+    background-color:rgb(249, 249, 249);
+    width:200px;
+    position:relative;
+    top:280px;
+    left:90px;
+    border-radius:10px;
+    border:none;
+    
+}
+button:hover{
+    cursor:pointer;
+}
+
+.compchoiceflash{
+    background-color:rgb(41, 205, 29);
+    box-shadow: 0px 0px 10px 10px rgba(41, 205, 29, 0.5);
+}
+.gameover{
+    background-color:red;
+}
