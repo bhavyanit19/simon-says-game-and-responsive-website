@@ -1,4 +1,5 @@
 project title-SIMON SAYS GAME.
+
 In this project, html,css and javascript are used.
 <img width="1680" alt="Screenshot 2025-03-16 at 2 43 52 AM" src="https://github.com/user-attachments/assets/8dc28804-90c4-45a8-ac91-7ef9e9964136" />
 In this game, correct order of the choices is very important in order to win.
@@ -9,7 +10,10 @@ If the computer choice and user choice is same, then score is increased but if t
 
 
 project title-RESPONSIVE WEBSITE.
+
 In this project, html and css is used only.
+<img width="1680" alt="Screenshot 2025-03-16 at 3 02 55 AM" src="https://github.com/user-attachments/assets/7e8b3b7c-2f56-4694-b2ec-f5264871025b" />
+
 the basic structure of this website is-
 1.navigation bar- divided into left and right navbar.
 2.introduction part.
